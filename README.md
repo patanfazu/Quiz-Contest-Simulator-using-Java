@@ -15,3 +15,15 @@ after user attempt all 10 questions his score will be displayed and same will be
 
 
 ## Applications : This quiz could be used by people of any age. It keeps the user engaged in a fun and creative way . It is used to test one's knowledge of certain things academically or otherwise. This quiz randomizes the set of questions so that two people getting the same set of questions has a low probability. With the result ,it gives the user a sense of achievement.
+
+# Algorithm:
+1. Start
+1. Three options -- Registration, Login, Exit are given where the user has to choose them in the order given.
+1. Choosing registration makes the user enter details such as Username, Password, Email ID, Mobile Number and these details are stored in a txt file.
+1. Choosing Login directs the user to input username and password.
+1. If the username and password doesn't match the respective details in the txt file stored earlier, the system terminates.
+1. If the username and password match, it directs the user to the Quiz.
+1. Then, questions are displayed and asks the user to answer them.
+1. The system goes on adding score as the quiz goes on.
+1. Then, the score is stored in another txt file. Then, the system terminates
+1. End
